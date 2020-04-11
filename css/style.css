@@ -1,0 +1,94 @@
+html,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.navbar-brand {
+    color: mintcream !important;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav-link {
+    color: mintcream !important;
+    border-bottom: 1px solid transparent;
+}
+
+.navbar-nav>.nav-item:hover .nav-link {
+    color: teal;
+    border-bottom: 1px solid rgba(255, 255, 255, 254);
+}
+
+.header {
+    background-image: url("../img/appetite.jpg");
+    height: 700px;
+    position: relative;
+    background-position: center;
+    background-color: #ccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header .overlay {
+    background: rgba(0, 0, 0, 0.35);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header .navbar-expand-lg {
+    background-color: transparent !important;
+    background-image: none;
+}
+
+.header .navbar-toggler {
+    color: white !important;
+    margin: 10px 0;
+}
+
+#bg-text {
+    font-family: 'Dancing Script', cursive;
+    color: floralwhite;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+#salmaFood {
+    font-weight: bold;
+    font-size: 100px;
+}
+
+#ligne {
+    background: floralwhite;
+    height: 1px;
+}
+
+footer {
+    background: dimgray;
+    color: floralwhite;
+}
+
+.cuisine-bg .eat-bg {
+    position: relative;
+    opacity: 0.65;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.cuisine-bg {
+    background-image: url("../img/restaurant-2697945_640.jpg");
+    min-height: 100%;
+}
+
+.cuisine {
+    color: floralwhite;
+    width: 100%;
+}
